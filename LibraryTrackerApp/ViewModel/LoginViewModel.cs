@@ -6,5 +6,6 @@ namespace LibraryTrackerApp.ViewModel
 {
     class LoginViewModel
     {
+        
     }
 }

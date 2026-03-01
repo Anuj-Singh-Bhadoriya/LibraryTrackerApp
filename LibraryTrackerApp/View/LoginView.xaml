@@ -10,6 +10,7 @@
         WindowStartupLocation="CenterScreen">
 
     <Window.Resources>
+        <!-- For Login Button-->
         <Style TargetType="Button" x:Key="LoginButton">
             <Setter Property="Background" Value="#2563EB"/>
             <Setter Property="Cursor" Value="Hand"/>
@@ -19,6 +20,48 @@
             <Setter Property="BorderThickness" Value="0"/>
             <Setter Property="Height" Value="40"/>
 
+            <Setter Property="Template" >
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border"
+                                Background="{TemplateBinding Background}"
+                                CornerRadius="8"
+                                >
+                            <ContentPresenter 
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <!--HoverEffect-->
+                            <Trigger
+                                Property="IsMouseOver" Value="True"
+                                >
+                                <Setter TargetName="border"
+                                     Property="Background" Value="#1D4ED8"/>
+
+                            </Trigger>
+                            
+                            <!-- PressEffect-->
+                            <Trigger 
+                                Property="IsPressed" Value="True">
+                                <Setter TargetName="border"
+                                        Property="RenderTransform"
+                                        >
+                                    <Setter.Value>
+                                        <ScaleTransform ScaleX="0.97" ScaleY="0.97"/>
+                                    </Setter.Value>
+                                    
+                                </Setter>
+
+                            </Trigger>
+                            
+                        </ControlTemplate.Triggers>
+                        
+                        
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
             <Style.Triggers >
                 <Trigger Property="IsMouseOver" Value="True" >
                     <Setter Property="Background" Value="#1D4ED8"/>
@@ -26,6 +69,85 @@
 
             </Style.Triggers>
         </Style>
+        
+        <!-- Username  Textbox-->
+        <Style TargetType="TextBox" x:Key="RoundedTexBoxStyle">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Margin" Value="0,5,0,20"/>
+            <Setter Property="Padding" Value="8"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="BorderBrush" Value="#E5E7EB"/>
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border
+                            x:Name="border"
+                            Background="White"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="1"
+                            CornerRadius="8"
+                            >
+                            <ScrollViewer x:Name="PART_ContentHost"/>
+
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <!-- FocusEffect-->
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter TargetName="border" 
+                                        Property="BorderBrush" Value="#2563EB"
+                                        />
+                                <Setter TargetName="border"
+                                        Property="BorderThickness" Value="2"
+                                    
+                                    />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                        
+                    </ControlTemplate>
+                    
+                </Setter.Value>
+            </Setter>
+        </Style>
+        
+        <!-- passwordbox for password-->
+        
+        <Style TargetType="PasswordBox" x:Key="RoundedPasswordBoxStyle">
+            <Setter Property ="FontWeight"  Value="SemiBold"/>
+            <Setter Property="Margin" Value="0,5,0,20"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="8" />
+
+
+            <Setter Property="Template">
+        <Setter.Value>
+            <ControlTemplate TargetType="PasswordBox">
+                <Border 
+                    x:Name="border"
+                    Background="White"
+                        CornerRadius="8"
+                        BorderBrush="#D1D5DB"
+                        BorderThickness="1"
+                        Padding="8">
+                    <ScrollViewer x:Name="PART_ContentHost"/>
+                </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter TargetName="border"
+                                        Property="BorderBrush" Value="#2563EB"
+                                        />
+                                <Setter TargetName="border" 
+                                        Property="BorderThickness" Value="2"
+                                        />
+
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+            </ControlTemplate>
+        </Setter.Value>
+    </Setter>
+</Style>
+        
     </Window.Resources>
     
     <Grid>
@@ -67,12 +189,8 @@
                         FontWeight="SemiBold"
                     
                         />
-                    <TextBox 
-                        Margin="0,5,0,20"
-                        FontSize="14"
-                        FontWeight="SemiBold"
-                        Height="35"
-                        Padding="8"
+                    <TextBox                 
+                        Style="{StaticResource RoundedTexBoxStyle}"
                         
                         />
 
@@ -87,7 +205,9 @@
                      FontSize="14"
                      FontWeight="SemiBold"
                      Margin="0,5,0,20"   
-                        Padding="8"                        
+                        Padding="8" 
+                        Style="{StaticResource RoundedPasswordBoxStyle}"
+                       
                      />
                     <!-- Login Button-->
 
