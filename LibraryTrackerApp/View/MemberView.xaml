@@ -1,0 +1,134 @@
+﻿<UserControl x:Class="LibraryTrackerApp.View.MemberView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d">
+
+    <Grid Background="#F5F7FA" Margin="10">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <!-- PAGE TITLE -->
+        <TextBlock
+            Text="Members Management"
+            FontSize="22"
+            FontWeight="Bold"
+            Margin="5"/>
+
+
+        <!-- SEARCH SECTION -->
+        <Border Grid.Row="1"
+                Background="White"
+                CornerRadius="8"
+                Padding="10"
+                Margin="0,10,0,10">
+
+            <Grid>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock
+                    Text="Search Member"
+                    VerticalAlignment="Center"
+                    FontWeight="SemiBold"
+                    Margin="5"/>
+
+                <TextBox
+                    Grid.Column="1"
+                    Margin="10,0"
+                    Height="30"
+                    VerticalContentAlignment="Center"
+                    />
+
+                <Button
+                    Grid.Column="2"
+                    Content="Search"
+                    Padding="15,5"
+                    Margin="5"/>
+
+            </Grid>
+
+        </Border>
+
+
+        <!-- ACTION BUTTONS -->
+        <StackPanel Grid.Row="2"
+                    Orientation="Horizontal"
+                    Margin="0,5,0,10">
+
+            <Button
+                Content="Add Member"
+                Background="#2563EB"
+                Foreground="White"
+                Padding="15,6"
+                Margin="5"/>
+
+            <Button
+                Content="Edit Member"
+                Padding="15,6"
+                Margin="5"/>
+
+            <Button
+                Content="Delete Member"
+                Background="#DC2626"
+                Foreground="White"
+                Padding="15,6"
+                Margin="5"/>
+
+        </StackPanel>
+
+
+        <!-- MEMBERS TABLE -->
+        <Border Grid.Row="3"
+                Background="White"
+                CornerRadius="8"
+                Padding="10">
+
+            <DataGrid
+                AutoGenerateColumns="False"
+                IsReadOnly="True"
+                RowHeight="35"
+                HeadersVisibility="Column"
+                GridLinesVisibility="Horizontal">
+
+                <DataGrid.Columns>
+
+                    <DataGridTextColumn Header="Member ID"
+                                        Binding="{Binding MemberId}"
+                                        Width="120"/>
+
+                    <DataGridTextColumn Header="Name"
+                                        Binding="{Binding Name}"
+                                        Width="*"/>
+
+                    <DataGridTextColumn Header="Phone"
+                                        Binding="{Binding Phone}"
+                                        Width="*"/>
+
+                    <DataGridTextColumn Header="Email"
+                                        Binding="{Binding Email}"
+                                        Width="*"/>
+
+                    <DataGridTextColumn Header="Address"
+                                        Binding="{Binding Address}"
+                                        Width="*"/>
+
+                </DataGrid.Columns>
+
+            </DataGrid>
+
+        </Border>
+
+    </Grid>
+</UserControl>

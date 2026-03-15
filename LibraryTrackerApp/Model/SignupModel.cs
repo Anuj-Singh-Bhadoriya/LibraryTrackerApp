@@ -9,6 +9,8 @@ namespace LibraryTrackerApp.Model
         public string? FullName { get; set; }
         public string? UserId { get; set; }
         public string? Password { get; set; }
+
+        //{1 for admin, 2 for user
         public int RoleId { get; set; }
         public int Status { get; set; }
         public string? Email { get; set; }

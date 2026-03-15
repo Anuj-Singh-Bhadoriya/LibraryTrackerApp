@@ -3,28 +3,64 @@
   "WorkspaceRootPath": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|c:\\project_vs2026\\wpf_project\\librarytrackerapp\\librarytrackerapp\\view\\signupview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|solutionrelative:view\\signupview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|c:\\project_vs2026\\wpf_project\\librarytrackerapp\\librarytrackerapp\\view\\mainwindowview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|solutionrelative:view\\mainwindowview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|c:\\project_vs2026\\wpf_project\\librarytrackerapp\\librarytrackerapp\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|solutionrelative:view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|c:\\project_vs2026\\wpf_project\\librarytrackerapp\\librarytrackerapp\\model\\bookmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|solutionrelative:model\\bookmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|c:\\project_vs2026\\wpf_project\\librarytrackerapp\\librarytrackerapp\\model\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|solutionrelative:model\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|c:\\project_vs2026\\wpf_project\\librarytrackerapp\\librarytrackerapp\\viewmodel\\bookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|solutionrelative:viewmodel\\bookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|c:\\project_vs2026\\wpf_project\\librarytrackerapp\\librarytrackerapp\\viewmodel\\memberviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|solutionrelative:viewmodel\\memberviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|c:\\project_vs2026\\wpf_project\\librarytrackerapp\\librarytrackerapp\\model\\membermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|solutionrelative:model\\membermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|c:\\project_vs2026\\wpf_project\\librarytrackerapp\\librarytrackerapp\\viewmodel\\issuebookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|solutionrelative:viewmodel\\issuebookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|c:\\project_vs2026\\wpf_project\\librarytrackerapp\\librarytrackerapp\\model\\issuebookmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|solutionrelative:model\\issuebookmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|c:\\project_vs2026\\wpf_project\\librarytrackerapp\\librarytrackerapp\\view\\issuebookview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|solutionrelative:view\\issuebookview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|c:\\project_vs2026\\wpf_project\\librarytrackerapp\\librarytrackerapp\\view\\memberview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|solutionrelative:view\\memberview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|c:\\project_vs2026\\wpf_project\\librarytrackerapp\\librarytrackerapp\\view\\mainwindowview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|solutionrelative:view\\mainwindowview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|c:\\project_vs2026\\wpf_project\\librarytrackerapp\\librarytrackerapp\\view\\bookview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|solutionrelative:view\\bookview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|c:\\project_vs2026\\wpf_project\\librarytrackerapp\\librarytrackerapp\\view\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|solutionrelative:view\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|c:\\project_vs2026\\wpf_project\\librarytrackerapp\\librarytrackerapp\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|solutionrelative:viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|c:\\project_vs2026\\wpf_project\\librarytrackerapp\\librarytrackerapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|c:\\project_vs2026\\wpf_project\\librarytrackerapp\\librarytrackerapp\\view\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|solutionrelative:view\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|c:\\project_vs2026\\wpf_project\\librarytrackerapp\\librarytrackerapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|c:\\project_vs2026\\wpf_project\\librarytrackerapp\\librarytrackerapp\\viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D9E2BA-C19D-CF81-3AB7-23C46659F88C}|LibraryTrackerApp.csproj|solutionrelative:viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,80 +70,192 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SignupView.xaml",
-              "DocumentMoniker": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\View\\SignupView.xaml",
-              "RelativeDocumentMoniker": "View\\SignupView.xaml",
-              "ToolTip": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\View\\SignupView.xaml",
-              "RelativeToolTip": "View\\SignupView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-01T07:00:48.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\ViewModel\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModel\\LoginViewModel.cs",
-              "ToolTip": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\ViewModel\\LoginViewModel.cs",
-              "RelativeToolTip": "ViewModel\\LoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "BookModel.cs",
+              "DocumentMoniker": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\Model\\BookModel.cs",
+              "RelativeDocumentMoniker": "Model\\BookModel.cs",
+              "ToolTip": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\Model\\BookModel.cs",
+              "RelativeToolTip": "Model\\BookModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T12:40:14.349Z",
+              "WhenOpened": "2026-03-11T20:08:38.806Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\Model\\LoginModel.cs",
-              "RelativeDocumentMoniker": "Model\\LoginModel.cs",
-              "ToolTip": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\Model\\LoginModel.cs",
-              "RelativeToolTip": "Model\\LoginModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Title": "BookViewModel.cs",
+              "DocumentMoniker": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\ViewModel\\BookViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\BookViewModel.cs",
+              "ToolTip": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\ViewModel\\BookViewModel.cs",
+              "RelativeToolTip": "ViewModel\\BookViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T12:39:55.152Z",
+              "WhenOpened": "2026-03-11T20:08:17.244Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginView.xaml",
-              "DocumentMoniker": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\View\\LoginView.xaml",
-              "RelativeDocumentMoniker": "View\\LoginView.xaml",
-              "ToolTip": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\View\\LoginView.xaml",
-              "RelativeToolTip": "View\\LoginView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-28T12:39:36.535Z",
+              "DocumentIndex": 3,
+              "Title": "MemberViewModel.cs",
+              "DocumentMoniker": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\ViewModel\\MemberViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\MemberViewModel.cs",
+              "ToolTip": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\ViewModel\\MemberViewModel.cs",
+              "RelativeToolTip": "ViewModel\\MemberViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T20:02:47.164Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-28T12:34:06.661Z"
+              "Title": "MemberModel.cs",
+              "DocumentMoniker": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\Model\\MemberModel.cs",
+              "RelativeDocumentMoniker": "Model\\MemberModel.cs",
+              "ToolTip": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\Model\\MemberModel.cs",
+              "RelativeToolTip": "Model\\MemberModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T20:02:15.98Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
+              "Title": "IssueBookViewModel.cs",
+              "DocumentMoniker": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\ViewModel\\IssueBookViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\IssueBookViewModel.cs",
+              "ToolTip": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\ViewModel\\IssueBookViewModel.cs",
+              "RelativeToolTip": "ViewModel\\IssueBookViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T12:34:03.649Z"
+              "WhenOpened": "2026-03-11T20:01:52.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IssueBookModel.cs",
+              "DocumentMoniker": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\Model\\IssueBookModel.cs",
+              "RelativeDocumentMoniker": "Model\\IssueBookModel.cs",
+              "ToolTip": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\Model\\IssueBookModel.cs",
+              "RelativeToolTip": "Model\\IssueBookModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T20:01:23.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IssueBookView.xaml",
+              "DocumentMoniker": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\View\\IssueBookView.xaml",
+              "RelativeDocumentMoniker": "View\\IssueBookView.xaml",
+              "ToolTip": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\View\\IssueBookView.xaml",
+              "RelativeToolTip": "View\\IssueBookView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-11T20:00:55.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MemberView.xaml",
+              "DocumentMoniker": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\View\\MemberView.xaml",
+              "RelativeDocumentMoniker": "View\\MemberView.xaml",
+              "ToolTip": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\View\\MemberView.xaml",
+              "RelativeToolTip": "View\\MemberView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-10T18:59:41.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindowView.xaml.cs",
+              "DocumentMoniker": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\View\\MainWindowView.xaml.cs",
+              "RelativeDocumentMoniker": "View\\MainWindowView.xaml.cs",
+              "ToolTip": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\View\\MainWindowView.xaml.cs",
+              "RelativeToolTip": "View\\MainWindowView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T12:32:30.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookView.xaml",
+              "DocumentMoniker": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\View\\BookView.xaml",
+              "RelativeDocumentMoniker": "View\\BookView.xaml",
+              "ToolTip": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\View\\BookView.xaml",
+              "RelativeToolTip": "View\\BookView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-08T12:10:25.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DashboardView.xaml",
+              "DocumentMoniker": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\View\\DashboardView.xaml",
+              "RelativeDocumentMoniker": "View\\DashboardView.xaml",
+              "ToolTip": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\View\\DashboardView.xaml",
+              "RelativeToolTip": "View\\DashboardView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-08T12:09:46.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\ViewModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\LoginViewModel.cs",
+              "ToolTip": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\ViewModel\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModel\\LoginViewModel.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowDwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T09:00:56.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginView.xaml.cs",
+              "DocumentMoniker": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\View\\LoginView.xaml.cs",
+              "RelativeDocumentMoniker": "View\\LoginView.xaml.cs",
+              "ToolTip": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\View\\LoginView.xaml.cs",
+              "RelativeToolTip": "View\\LoginView.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T09:00:48.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindowView.xaml",
+              "DocumentMoniker": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\View\\MainWindowView.xaml",
+              "RelativeDocumentMoniker": "View\\MainWindowView.xaml",
+              "ToolTip": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\View\\MainWindowView.xaml",
+              "RelativeToolTip": "View\\MainWindowView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-07T16:38:37.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\ViewModel\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "ViewModel\\RelayCommand.cs",
+              "ToolTip": "C:\\Project_VS2026\\WPF_Project\\LibraryTrackerApp\\LibraryTrackerApp\\ViewModel\\RelayCommand.cs",
+              "RelativeToolTip": "ViewModel\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T14:17:22.557Z"
             }
           ]
         }

@@ -4,10 +4,15 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LibraryTrackerApp.View"
+        xmlns:vm="clr-namespace:LibraryTrackerApp.ViewModel"
         mc:Ignorable="d"
         Title="LoginView" Height="500" Width="500"
         Background="#F3F4F6"
         WindowStartupLocation="CenterScreen">
+
+    <Window.DataContext>
+        <vm:LoginViewModel/>
+    </Window.DataContext>
 
     <Window.Resources>
         <!-- For Login Button-->
@@ -75,8 +80,8 @@
             <Setter Property="FontSize" Value="14"/>
             <Setter Property="FontWeight" Value="SemiBold"/>
             <Setter Property="Margin" Value="0,5,0,20"/>
-            <Setter Property="Padding" Value="8"/>
-            <Setter Property="Height" Value="35"/>
+            
+            <Setter Property="Height" Value="40"/>
             <Setter Property="BorderBrush" Value="#E5E7EB"/>
 
             <Setter Property="Template">
@@ -117,7 +122,8 @@
             <Setter Property ="FontWeight"  Value="SemiBold"/>
             <Setter Property="Margin" Value="0,5,0,20"/>
             <Setter Property="FontSize" Value="14"/>
-            <Setter Property="Padding" Value="8" />
+          
+            <Setter Property="Height" Value="40"/>
 
 
             <Setter Property="Template">
@@ -129,7 +135,7 @@
                         CornerRadius="8"
                         BorderBrush="#D1D5DB"
                         BorderThickness="1"
-                        Padding="8">
+                        >
                     <ScrollViewer x:Name="PART_ContentHost"/>
                 </Border>
                         <ControlTemplate.Triggers>
@@ -191,7 +197,7 @@
                         />
                     <TextBox                 
                         Style="{StaticResource RoundedTexBoxStyle}"
-                        
+                        Text="{Binding UserId}"
                         />
 
                     <!-- Password-->
@@ -201,21 +207,19 @@
                         FontWeight="SemiBold"                     
                         />
 
-                    <PasswordBox                 
-                     FontSize="14"
-                     FontWeight="SemiBold"
-                     Margin="0,5,0,20"   
-                        Padding="8" 
-                        Style="{StaticResource RoundedPasswordBoxStyle}"
-                       
+                    <PasswordBox 
+                     x:Name="pwdBox"                  
+                     Style="{StaticResource RoundedPasswordBoxStyle}"
+                        
                      />
+                    
                     <!-- Login Button-->
 
                     <Button 
                         Content="Login"  
                         Margin="5,10,5,20"
-                       Style="{StaticResource LoginButton}"
-                      
+                       Style="{StaticResource LoginButton}"                
+                     Click="Login_Click"
                         >
 
                     </Button>

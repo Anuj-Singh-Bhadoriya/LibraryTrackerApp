@@ -9,6 +9,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using LibraryTrackerApp.ViewModel;
 
 namespace LibraryTrackerApp.View
 {
@@ -20,6 +21,12 @@ namespace LibraryTrackerApp.View
         public LoginView()
         {
             InitializeComponent();
+            DataContext = new LoginViewModel();
+        }
+        private void Login_Click(object sender, RoutedEventArgs e)
+        {
+            var vm = (LoginViewModel)DataContext;
+            vm.LoginCommand.Execute(pwdBox.Password);
         }
     }
 }
